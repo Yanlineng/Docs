@@ -1,0 +1,10 @@
+#  Qt license file
+CustomerID=""
+LicenseID="10575694"
+Licensee="立能 严"
+Products="Qt for Application Development "
+ExpiryDate="2020-08-18"
+# Qt 4.x and Qt 5.0
+LicenseKeyExt="BGKX-FM5-R4M-2CX-QAUMH-KPNV7-1953"
+# Qt 5.1 ->
+Qt5LicenseKey="BGK-FX4-R4M-VCX-QAUMH-KPNV7-93DF"
