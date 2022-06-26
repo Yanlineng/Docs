@@ -5,8 +5,8 @@
 对于该项目，我的**解决方案**如下：
 
 1. 对接 NimBLE HCI层  :  主要使用RT-Thread 中UART设备驱动模块对接 NimBLE HCI层，完成对大部分的RT-Thread 上的bsp开发板的适配， 且只要支持UART就能支持蓝牙协议栈 搭配蓝牙controller卡片。
-2. 添加 NimBLE 对外部蓝牙controller芯片的初始化支持：主要参考BTstack中初始化架构完成构建， 完成部分外部蓝牙controller芯片的初始化支持；这一部分尽可能解耦 HCI传输接口 与 初始化实际数据内容，实现用统一的初始化 HCI 传输调用过程，便于后期扩展其他芯片初始化功能。
-3. 完善 NimBLE app功能：为蓝牙协议栈提供更多可以跑的 example 例程，主要是学习 NimBLE app编程，并完成在 RT-Thread 下的功能运行测试。
+2. 添加 NimBLE 对外部蓝牙controller芯片的初始化支持：主要参考 BTstack 中初始化架构完成构建， 完成部分外部蓝牙controller芯片的初始化支持；这一部分尽可能解耦 HCI传输接口 与 初始化实际数据内容，实现用统一的初始化 HCI 传输调用过程，便于后期扩展其他芯片初始化功能。
+3. 完善 NimBLE app功能：为蓝牙协议栈提供更多可以跑的 example 例程，主要是学习 NimBLE app 编程，并完成在 RT-Thread 下的功能运行测试。
 
 我的**项目开发时间计划**如下：
 
