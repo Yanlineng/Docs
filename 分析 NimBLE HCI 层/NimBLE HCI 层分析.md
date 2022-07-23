@@ -15,7 +15,6 @@ NimBLE
    │   ├───drivers            /* Nordic 系列 Phy 驱动 */
    │   ├───host               /* Host Stack(主机控制器)实现 */
    │   ├───include
-   │   ├───src
    │   └───transport          /* HCI 传输抽象层 */
    └───porting                /* OS 抽象层及系统配置 */
 ```
@@ -31,7 +30,7 @@ NimBLE
 
 NimBLE HCI 层主要是了解 `nimble/transport` 下的内容。首先看一下官方文档 `nimble/doc/transport.md` 中对 transport 层的说明，主要看下面这张图：
 
-![hci_interface](image/hci_interface.png)
+![hci_interface](figures/hci_interface.png)
 
 HCI 层包括这4接口：Host 从 Controller 端接收接口 `ble_transport_to_hs_evt` 和 `ble_transport_to_hs_acl`；以及 Host 向 Controller 发送接口 `ble_transport_to_ll_cmd` 和 `ble_transport_to_ll_acl`。
 
