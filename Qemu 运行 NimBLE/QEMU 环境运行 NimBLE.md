@@ -32,7 +32,7 @@ scons --menuconfig
 
 在 RT-Thread 上 NimBLE 不需要运行 Controller ，使用 蓝牙 Control 芯片代替。
 
-4、配置 NimBLE HCI 层支持，选择用于连接蓝牙 Control 芯片的串口吗，这里 The uart for HCI Transport 默认输入 "uart1" 就好。
+4、配置 NimBLE HCI 层支持，选择用于连接蓝牙 Control 芯片的串口，这里 The uart for HCI Transport 默认输入 "uart1" 就好。
 
 <img src="./figures/NimBLE-HCI.png" style="zoom:67%;" />
 
@@ -67,7 +67,7 @@ $ source ~/.env/env.sh
 
 使用 `pkgs --update` 命令下载 NimBLE 软件包到 BSP 目录下的 packages 文件夹里。
 
-```
+```shell
 $ pkgs --update
 ```
 
